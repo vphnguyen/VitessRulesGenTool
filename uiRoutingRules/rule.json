@@ -1,0 +1,86 @@
+{
+  "rules": [
+    {
+      "fromTable": "smallworld",
+      "toTables": [  "theworld.smallworld" ]
+    },
+    {
+      "fromTable": "smallworld@replica",
+      "toTables": [
+        "theworld.smallworld"
+      ]
+    },
+    {
+      "fromTable": "smallworld@replica",
+      "toTables": [
+        "rtt.smallworld"
+      ]
+    },
+    {
+      "fromTable": "smallworld@replica",
+      "toTables": [
+        "aaaaaa.smallworld"
+      ]
+    },
+    {
+      "fromTable": "smallworld@replica",
+      "toTables": [
+        "bbbbbbbbb.ddddd"
+      ]
+    },
+    {
+      "fromTable": "smallworld@replica",
+      "toTables": [
+        "bbbbbbbbb.vvvvvvv"
+      ]
+    },
+    {
+      "fromTable": "smallworld@rdonly",
+      "toTables": [
+        "theworld.smallworld"
+      ]
+    },
+    {
+      "fromTable": "world_x.smallworld",
+      "toTables": [
+        "theworld.smallworld"
+      ]
+    },
+    {
+      "fromTable": "world_x.smallworld@replica",
+      "toTables": [
+        "theworld.smallworld"
+      ]
+    },
+    {
+      "fromTable": "world_x.wood",
+      "toTables": [
+        "theworld.smallworld"
+      ]
+    },
+    {
+      "fromTable": "world_x.wood",
+      "toTables": [
+        "workd.bbbb"
+      ]
+    },
+    {
+      "fromTable": "world_x.smallworld@rdonly",
+      "toTables": [
+        "theworld.smallworld"
+      ]
+    },
+    {
+      "fromTable": "theworld.smallworld@replica",
+      "toTables": [
+        "theworld.smallworld"
+      ]
+    },
+    {
+      "fromTable": "theworld.smallworld@rdonly",
+      "toTables": [
+        "theworld.smallworld"
+      ]
+    }
+  ]
+}
